@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: "IosevkaCharonMono";
+    src: url("losevkaCharonMono-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald-Light";
+    src: url("Oswald-Light.ttf") format("truetype");
+}
+
+body {
+
+    background-color: #e6e5e1; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.profile-container img {
+    max-width: 800px;
+    height: auto;
+}
+
+h1, p {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family:"losevkaCharonMono";
+    background-image:url(Texturelabs_Wood_189S.jpg);
+    font-size: 3rem;
+}
+
+p{
+    font-family:"Oswald-Light";
+    background-image:url(brown-wood-textured-background-with-design-space_53876-160425.avif);
+    font-size: 1.75rem;
+}
